@@ -1,18 +1,26 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.6)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     httpclient (2.8.3)
+    naether (0.15.7)
+      httpclient
+      rake (< 11.0)
+      rjb (> 1.4.0, < 1.6.0)
     naether (0.15.7-java)
       httpclient
       rake (< 11.0)
+    public_suffix (4.0.6)
     rake (10.5.0)
+    rjb (1.5.9)
 
 PLATFORMS
   java
+  x86_64-linux
 
 DEPENDENCIES
-  addressable (= 2.3.6)
+  addressable (= 2.8.0)
   naether (= 0.15.7)
 
 RUBY VERSION
